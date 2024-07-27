@@ -42,3 +42,10 @@ svg{
     margin-top: -40rem;
     margin-left: 10% !important;
 }
+
+@media screen and (max-width: 640px) {
+    .div-text{
+        margin-top: -35rem;
+        margin-left: 0 !important;
+    }
+}
