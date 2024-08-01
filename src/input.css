@@ -42,10 +42,38 @@ svg{
     margin-top: -40rem;
     margin-left: 10% !important;
 }
+.custom-width-div{
+    max-width: 1200px !important;
+}
+.div-img{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    border: 1px solid blue;
+}
+.div-main:hover .div-img{
+    transform: scale(1);
+}
+.div-sub{
+    opacity: 0;
+    color: white;
+    transition: all 0.5s;
+}
+.div-main:hover .div-sub{
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.448);
+}
+
 
 @media screen and (max-width: 640px) {
     .div-text{
         margin-top: -35rem;
         margin-left: 0 !important;
+    }
+    
+}
+
+@media screen and (max-width: 790px) {
+    .div-main{
+        width: 15rem;
     }
 }
